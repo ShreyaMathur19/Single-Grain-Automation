@@ -1,0 +1,6 @@
+Observed run comparison: original conservative rules output versus revised rules output.
+L-003: ESCALATE -> NURTURE
+L-005: ESCALATE -> NURTURE
+L-006: ESCALATE -> REJECT
+L-011: ESCALATE -> NURTURE
+L-015: ESCALATE -> NURTURE

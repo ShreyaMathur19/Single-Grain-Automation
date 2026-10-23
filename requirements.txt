@@ -1,0 +1,3 @@
+# Used only in --mode openai to call the local Ollama OpenAI-compatible API.
+# --mode rules and the standard-library test suite do not require third-party packages.
+openai>=1.50,<3

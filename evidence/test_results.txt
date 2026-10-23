@@ -1,0 +1,21 @@
+test_all_rows_and_unique_ids (test_agent.TriageTests.test_all_rows_and_unique_ids) ... ok
+test_budget_variants (test_agent.TriageTests.test_budget_variants) ... ok
+test_conflicting_enterprise_budget_escalates (test_agent.TriageTests.test_conflicting_enterprise_budget_escalates) ... ok
+test_html_and_spanish_intent (test_agent.TriageTests.test_html_and_spanish_intent) ... ok
+test_injection_is_not_executed (test_agent.TriageTests.test_injection_is_not_executed) ... ok
+test_low_or_unknown_budget_is_nurture (test_agent.TriageTests.test_low_or_unknown_budget_is_nurture) ... ok
+test_malformed_date (test_agent.TriageTests.test_malformed_date) ... ok
+test_no_external_claims_for_missing_contact (test_agent.TriageTests.test_no_external_claims_for_missing_contact) ... ok
+test_privacy_and_executable (test_agent.TriageTests.test_privacy_and_executable) ... ok
+test_repeat_contact_with_new_intent_not_silently_rejected (test_agent.TriageTests.test_repeat_contact_with_new_intent_not_silently_rejected) ... ok
+test_security_and_privacy_remain_human_routed (test_agent.TriageTests.test_security_and_privacy_remain_human_routed) ... ok
+test_verification_reduces_noncritical_escalations (test_agent.TriageTests.test_verification_reduces_noncritical_escalations) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.011s
+
+OK
+Processed 20 leads | fixture SHA-256: cc1927ca771c37b186a2abdb7b9757594da79ec6dda074e5a514dd2761cc8599 | mode: rules
+Decisions: {'QUALIFY': 3, 'REJECT': 3, 'NURTURE': 8, 'ESCALATE': 6}
+Output: /tmp/tmpq58808oq/result.csv 
+Log: /tmp/tmpq58808oq/log.jsonl

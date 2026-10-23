@@ -1,0 +1,21 @@
+lead_id,decision,reason,confidence
+L-001,QUALIFY,"Credible marketing-service request with a stated budget of $25,000 USD.",0.95
+L-002,REJECT,Student mentorship request is not an agency-service lead.,0.98
+L-003,NURTURE,Follow-up from an existing company contact; attach it to the original opportunity.,0.95
+L-004,ESCALATE,Missing or invalid contact email prevents safe follow-up.,0.98
+L-005,NURTURE,Budget is unspecified and the lead is seeking education.,0.8
+L-006,REJECT,Submission attempts to manipulate classification and lacks a trustworthy service request.,0.97
+L-007,NURTURE,Enterprise request has a contradictory stated budget; request clarification before sales qualification.,0.88
+L-008,ESCALATE,High-value claim lacks verifiable company identity.,0.97
+L-009,QUALIFY,Credible marketing-service request with stated budget over 5000 USD.,0.95
+L-010,REJECT,Submission resembles test or junk data without a meaningful service request.,0.97
+L-011,NURTURE,Agency intermediary is comparing offerings for a client; route to partnership follow-up.,0.9
+L-012,NURTURE,"Marketing inquiry is actionable, but its invalid submission timestamp needs correction.",0.83
+L-013,ESCALATE,Disposable contact address needs identity verification before sales follow-up.,0.96
+L-014,NURTURE,Budget is below the threshold and the company plans to scale later.,0.9
+L-015,NURTURE,Previous contact submitted a new marketing request; ask for business details before qualifying.,0.86
+L-016,QUALIFY,Credible marketing interest with stated budget >= 5000 USD.,0.95
+L-017,NURTURE,Relevant healthcare marketing request; hold campaign work until compliance approval.,0.85
+L-018,ESCALATE,No project description provided despite budget; clarify requirements.,0.98
+L-019,ESCALATE,Personal-data deletion request requires privacy-team review.,0.99
+L-020,ESCALATE,Message contains a potentially unsafe executable link; security review required.,0.99
